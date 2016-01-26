@@ -67,7 +67,7 @@ $('form').submit(function(){
 						$(".w-form-done").html('<p style="color: #ffffff;">Thank you for Registering with us! you can login now</p>');
 						var delay = 4000; //Your delay in milliseconds
 						var URL = "login.html";
-						setTimeout(function(){ window.location = URL; }, delay);
+						setTimeout(function(){ window.location = URL; }, 10000);
 				} else {
 					// not success! show error messages
 					// alert.html(data.status).fadeIn();
